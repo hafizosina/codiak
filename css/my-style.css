@@ -1,0 +1,56 @@
+:root {
+	--red:#ff0000;
+	--green:#00ff00;
+	--blue:#0000ff;
+	--black:#000000;
+	--grey:#777777;
+	--light-grey:#aaaaaa;
+	--dark-grey:#555555;
+	--smooth-grey:#4A4A48;
+	--smooth-blue:#99FFF8;
+	--bright-blue:#00A7E1;
+
+
+	--nav-color: var(--bright-blue);
+
+}
+
+
+.bg-navbar {
+  	background-color: var(--nav-color) !important; }
+
+.bg-navbar:hover {
+	transition: 0.4s;
+	background-color: var(--light-grey) !important; }
+
+.divider-v1{
+	width: 2px;
+	margin: 6px 0;
+	background: blue;
+}
+
+.m-rounded-right {
+	border-top-left-radius: 0rem !important;
+	border-bottom-left-radius: 0rem !important; 
+	border-top-right-radius: 0.25rem !important;
+	border-bottom-right-radius: 0.25rem !important; }
+
+
+.m-rounded-left {
+	border-top-right-radius: 0rem !important;
+	border-bottom-right-radius: 0rem !important;
+	border-top-left-radius: 0.25rem !important;
+	border-bottom-left-radius: 0.25rem !important; }
+
+.menu-item {
+	border-top-right-radius: 0.25rem !important;
+	border-bottom-right-radius: 0.25rem !important;
+	border-top-left-radius: 0.25rem !important;
+	border-bottom-left-radius: 0.25rem !important;
+	transition: .4s;
+}
+
+.menu-item:hover {
+	transition: .4s;
+	background-color: #3252E1;
+}
